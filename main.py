@@ -3,7 +3,7 @@ import random
 from pathlib import Path
 import shutil
 
-desktop_path = Path.home() / 'Desktop'
+desktop_path = Path.home() / 'OneDrive - Align Technology, Inc/Pulpit'
 root_folder = desktop_path / "root"
 
 
