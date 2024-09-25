@@ -20,7 +20,7 @@ def file_create(folder_path):
 
 
 num_subfolders = 4
-num_inner_subfolders = 8000
+num_inner_subfolders = 80000
 
 for i in range (1, num_subfolders + 1):
     subfolder_path = root_folder / f"folder_{i}"
@@ -39,7 +39,7 @@ time.sleep(15*60)
 
 request = input("Czy stworzyc nowa partie folderow z plikami?: ")
 
-new_folders = 2000
+new_folders = 20000
 
 if request == 'yes':
     for i in range(1, num_subfolders +1):
